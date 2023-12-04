@@ -1,0 +1,22 @@
+.reset-btn {
+	border: none;
+	border-radius: 0.5rem;
+	background-color: rgb(44, 135, 157);
+	color: white;
+	font-size: 1.5rem;
+	padding: 0.5rem 1rem;
+	margin: 2rem auto;
+	display: block;
+	transition: ease-in;
+}
+
+.reset-btn:hover {
+	background-color: teal;
+	box-shadow: rgb(44, 135, 157);
+	transform: scale(1.1);
+}
+
+.reset-btn:active {
+	background-color: hsl(329.72deg 60.45% 65.29%);
+	transform: scale(1);
+}
